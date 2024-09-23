@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "norse";
+  src:
+    url("fonts/norse-bold-webfont.woff") format("woff"),
+    url("fonts/norse-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#image-sidebar {
+  background-image: url("images/leaf.avif");
+  background-size: cover;
+  background-color: green;
+  width: 30vw;
+  height: 100%;
+}
+
+#logo {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+#logo-text {
+  font-family: "norse", sans-serif;
+  font-size: 5em;
+  color: #ffffff;
+  align-self: center;
+}
+
+#logo-credit {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9em;
+  width: 26vw;
+  text-align: center;
+  color: #ffffff;
+}
+
+#logo-credit a {
+  color: #ffffff;
+  align-self: center;
+}
+
+#right-container {
+  width: 70vw;
+  margin: 2vw 20vw 2vw 2vw;
+}
+
+#description {
+  font-size: 1.5em;
+}
+
+#form {
+  background-color: #FFFFF;
+}
+
+label {
+  display: block;
+  font-size: 0.5em;
+}
+
+#inputs {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 10px;
+}
+
+.input-container {
+  display: inline-block;
+}
+
+.input-container input {
+  width: 15em;
+}
+
+#sub-button {
+  margin-top: 20px;
+}
+
+#sub-button input {
+  background-color: #596d48;
+  color: #ffffff;
+}
+
+#login {
+  margin-top: 20px;
+}
+
+#login a {
+  color: #596d48;
+}

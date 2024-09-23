@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign-up Form</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="image-sidebar">
+        <div id="logo">
+          <img src="images/odin-lined.png" alt="Odin logo" width="60" />
+          <span id="logo-text">ODIN</span>
+        </div>
+        <div id="logo-credit">
+          Photo by Halie West on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+            >On unsqplash</a
+          >
+        </div>
+      </div>
+      <div id="right-container">
+        <div id="description">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+          <p>You know you want to.</p>
+        </div>
+        <div id="form">
+          <p>Let's do this!</p>
+          <form action="action_page">
+            <div id="inputs">
+              <div class="input-container">
+                <label for="fname">FIRST NAME</label>
+                <input class type="text" id="fname" name="fname" />
+              </div>
+              <div class="input-container">
+                <label for="lname">LAST NAME</label>
+                <input type="text" id="lname" name="lname" />
+              </div>
+              <div class="input-container">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="input-container">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="phone" id="phone" name="phone" />
+              </div>
+              <div class="input-container">
+                <label for="passwd">PASSWORD</label>
+                <input type="password" id="passwd" name="passwd" />
+              </div>
+              <div class="input-container">
+                <label for="passwd_confirm">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="passwd_confirm"
+                  name="passwd_confirm"
+                />
+              </div>
+            </div>
+            <div id="sub-button">
+              <input type="submit" value="Create Account" />
+            </div>
+            <div id="login">
+              Already have an account? <a href="login.html">Log in</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
